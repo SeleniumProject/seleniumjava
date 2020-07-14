@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg Suite">
+	<test name="Demo Shop Tests">
+
+		<classes>
+			<class name="com.collections.testMethods.TC02_CollectionCheckoutTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

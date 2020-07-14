@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-method Suite" thread-count="2">
+
+
+	<listeners>
+		<listener class-name="com.heat.listeners.Listener"></listener>
+	</listeners>
+
+	<test name="Test-method test 1">
+		<classes>
+			<class name="com.heat.testMethods.TC02_verifyStaffLoginTest" />
+
+		</classes>
+	</test>
+	
+</suite> 

@@ -1,0 +1,23 @@
+DesiredCapabilities capability = DesiredCapabilities.chrome();
+capability.setCapability(“chrome.binary”,System.getProperty(“user.dir”) + “/drivers/chromedriver.exe”);
+WebDriverManager.chromedriver().setup();
+driver = new ChromeDriver(capability);
+
+
+
+
+
+				WebDriverManager.chromedriver().setup();
+				ChromeOptions options = new ChromeOptions();
+			//	options.addArguments("--incognito");
+			//options.addArguments("--start-maximized");
+		//options.addArguments("--headless");
+				DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+
+				driver = new ChromeDriver(capabilities);
+				
+				
+				
+				
+					//invokeBrowser(prop.getProperty("browserType"));
